@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "qr-reader/qr",
+  "title": "QR Reader",
+  "textdomain": "qr-reader",
+  "icon": "universal-access-alt",
+  "category": "widgets",
+  "keywords": [
+    "qrreader"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

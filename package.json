@@ -1,0 +1,34 @@
+{
+	"name": "@block-development-examples/editable-block-1b8c51",
+	"version": "0.1.0",
+	"description": "Very basic editable block",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.12.0"
+	},
+	"files": [
+		"*"
+	],
+	"dependencies": {
+		"@wordpress/e2e-test-utils": "^10.12.0",
+		"@wordpress/env": "^8.7.0",
+		"@wordpress/icons": "^9.46.0"
+	}
+}

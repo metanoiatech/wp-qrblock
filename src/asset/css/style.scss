@@ -1,0 +1,56 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ h1 {
+    color: white;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  #container {
+    text-align: center;
+    margin: 0;
+  }
+  
+  #qr-video {
+    margin: auto;
+    width: calc(100% - 20px);
+    max-width: 400px;
+  }
+  
+  #btn-scan-qr {
+    cursor: pointer;
+  }
+  
+  #btn-scan-qr img {
+    height: 10em;
+    padding: 15px;
+    margin: 15px;
+    background: white;
+  }
+  
+  #qr-result {
+    font-size: 1.2em;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    background-color: white;
+    color: #000;
+  }
+
+  #qr-warning {
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(218, 7, 7);
+  }
+
+  #btn-stop-scan {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
